@@ -10,26 +10,39 @@
 <body>
     <section>
         <div class="container">
+            <span><img src="images/icon-star.svg" class="star"></span>
             <header id="header">
                 <h2>How did we do?</h2>
             </header>
             <p class="p-1">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
             <ul class="list">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
+                <li class="circle" value="1">1</li>
+                <li class="circle" value="2">2</li>
+                <li class="circle"  value="3">3</li>
+                <li class="circle"  value="4">4</li>
+                <li class="circle"  value="5">5</li>
             </ul>
             <input id="btn" type="submit">
+
+            <div class="thankYou">
+                <img src="images/illustration-thank-you.svg" class="thanks-Img" alt="Thank You">
+            
+                <div class="rating-box">
+                    <span class="rating">You selected <span id="rating"></span> out of 5</span>
+                </div>
+                <h2 class="thnks">Thank you!</h2>
+                <p class="p-2">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+            </div>
         </div>
     </section>
     <!-- End of Section/Container -->
+
+   
     
 </body>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
     </style>
 <script src="main.js"></script>
 </html>
