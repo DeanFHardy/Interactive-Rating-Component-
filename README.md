@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Rating_component.png)
+![](images/Rating_component.png)
 
 
 
