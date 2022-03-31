@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://rating-box.netlify.app/)
+- Live Site URL: [(https://rating-box.netlify.app/)]
 
 ## My process
 
