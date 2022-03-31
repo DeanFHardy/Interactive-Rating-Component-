@@ -30,7 +30,7 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-<img src="images/Rating_component.png" width="500"> <img src="images/thank-you screen.png" width="400" height="370">
+<img src="images/Rating_component.png" width="500"> <img src="images/thank-you screen.png" width="500" height="370">
 
 
 
