@@ -14,6 +14,8 @@
 body {
     font-family: 'Overpass', sans-serif;
     background-color: var(--background);
+    width: 100%;
+    height: 100vh;
 }
 
 section {
@@ -25,11 +27,12 @@ section {
     border-radius: 30px 30px 30px 30px;
     max-width: 450px;
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     display: grid;
     align-items: center;
     justify-content: center;
     background-color: var(--main-color);
+    box-sizing: border-box;
     /* grid-template-columns: repeat(3, 1fr);
     gap: 10px; */
 
@@ -53,8 +56,8 @@ section {
 
 .star {
     position: relative;
-    bottom: 170px;
-    right: 175px;
+    bottom: 45px;
+    left: 20px;
     background-color: var(--medium-grey);
     border-radius: 50%;
     padding: 1em;
@@ -73,13 +76,13 @@ section {
     list-style: none;
     cursor: pointer;
     letter-spacing: 4.5em;
-    margin-top: 170px;
-    position: absolute;
-    padding-top: 20px;
-    padding-left: 40px;
+    position: relative;
+    padding: 40px;
+    max-width: 450px;
+    width: 90%;
     display: flex;
     color: var(--paragraph);
-    gap: 25px;
+    gap: 20px;
 } 
 
 .list li {
@@ -186,3 +189,4 @@ section {
     right: 90px;
     line-height: 1.5em;
 }
+
