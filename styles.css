@@ -18,8 +18,8 @@ body {
 }
 
 section {
-    height: 90vh;
     position: relative;
+    height: 90vh;
 }
 
 .container {
@@ -187,5 +187,73 @@ section {
     top: 100px;
     right: 90px;
     line-height: 1.5em;
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 80%;
+    }
+
+    #header {
+        padding-left: 4px;
+    }
+
+    .star {
+        position: relative;
+        left: 4rem;
+    }
+
+    .list {
+        gap: 5px;
+    }
+
+    .list li:hover {
+        color: #fff;
+        background-color: var(--button-color);
+    }
+    
+    .list li:active{
+        background-color: var(--button-color);
+    }
+
+    .list li.selected {
+        color: #fff;
+        background-color: var(--paragraph);
+    }
+
+    #btn {
+        margin-bottom: 10px;
+        width: 60%;
+        left: 1.3em;
+    }
+
+    .thanks-Img {
+        position: relative;
+        right: 5rem;
+    }
+
+    .rating {
+        position: relative;
+        top: 2rem;
+        right: 4.5rem;
+    }
+
+    .p-2 {
+        right: 7.5rem;
+        font-size: small;
+        width: 250px;
+        top: 10rem;
+        
+    }
+
+    .thnks {
+     position: relative;
+     display: block;
+     top: 8rem;
+     left: -4rem;
+    }
+
+
+    
 }
 
